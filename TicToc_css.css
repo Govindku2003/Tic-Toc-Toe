@@ -1,0 +1,85 @@
+*{
+    margine:0;
+    padding:0;
+}
+.msg-cont{
+    font-size: 2.2rem;
+    height: 2.2rem;
+    color: yellow;
+
+}
+#new-btn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #f50212;
+    color: #fff;
+    border-radius: 0.8rem;
+    border: none;
+   
+}
+h1{
+    font-size: 4rem;
+    height: 2rem;
+    
+}
+body{
+    background-color:#548687 ;
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+}
+main{
+    align-items: center;
+    justify-content: center;
+}
+.container{
+     height: 61vh; 
+    width: 61vh;     
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    
+    /* align-items: center; */
+    justify-content: center;
+    margin-left:27.7rem ;
+
+}
+
+.allBtn{
+    height: 60vh;
+    width: 60vh;
+    gap: 1.3vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.box{
+    height: 18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0,0,0.3);
+    font-size: 8vmin;
+    color: rgb(104, 22, 32);
+    background-color: rgb(211, 231, 206);
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+
+}
+.hide{
+    display: none;
+}
